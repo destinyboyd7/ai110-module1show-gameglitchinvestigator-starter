@@ -1,3 +1,4 @@
+#FIX: Refactored logic into logic_utils.py from app.py for better modularity and testability us AI
 def get_range_for_difficulty(difficulty: str):
     """Return (low, high) inclusive range for a given difficulty."""
     if difficulty == "Easy":
@@ -26,12 +27,11 @@ def parse_guess(raw: str):
             value = int(float(raw))
         else:
             value = int(raw)
-    except Exception:
+    except ValueError:
         return False, None, "That is not a number."
 
     return True, value, None
 
-#logic breaks here
 def check_guess(guess, secret): 
     """
     Compare guess to secret and return (outcome, message).
