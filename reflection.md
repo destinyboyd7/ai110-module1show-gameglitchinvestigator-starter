@@ -7,9 +7,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - What did the game look like the first time you ran it?
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
+  When first running the game it looked normal. The first bug I noticed was the hints for the guess were incorrect and that they were opposite. I also noticed that the new game button doesn't allow more guesses to be submitted if you run out of attempts it only changes the secret number. Last bug i noted was that the guess number you submit isn't always accurate it will possibly out put the number you submitted previously. 
 
 ---
-
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
